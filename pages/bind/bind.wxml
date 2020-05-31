@@ -6,7 +6,7 @@
 	</view> -->
 	<view class="weui-form">
 		<view class="weui-form__text-area">
-			<h2 class="weui-form__title">绑定</h2>
+			<h2 class="weui-form__title">欢迎使用签名助手</h2>
 			<!-- <view class="weui-form__desc">这里是绑定界面,绑定成功后进入“index签名首页”</view> -->
 		</view>
 		<view class="weui-form__control-area">
@@ -14,9 +14,9 @@
 				<view class="weui-cells__title"></view>
 				<view class="weui-cells weui-cells_form">
 					<view class="weui-cell weui-cell_active">
-						<view class="weui-cell__hd"><label class="weui-label">用户名</label></view>
+						<view class="weui-cell__hd"><label class="weui-label">帐号</label></view>
 						<view class="weui-cell__bd">
-							<input class="weui-input" placeholder="请输入用户名" type="text" placeholder-class="weui-input__placeholder" bindinput="setUsername" />
+							<input class="weui-input" placeholder="请输入统一身份认证帐号" type="text" placeholder-class="weui-input__placeholder" bindinput="setUsername" />
 						</view>
 					</view>
 					<view class="weui-cell weui-cell_active">
@@ -24,7 +24,7 @@
 							<label class="weui-label">密码</label>
 						</view>
 						<view class="weui-cell__bd">
-							<input class="weui-input" placeholder="请输入密码" type="password" placeholder-class="weui-input__placeholder" bindinput="setPassword" />
+							<input class="weui-input" placeholder="请输入统一身份认证密码" type="password" placeholder-class="weui-input__placeholder" bindinput="setPassword" />
 						</view>
 					</view>
 					<!-- <view class="weui-cell weui-cell_active">
@@ -50,11 +50,14 @@
 				</view>
 			</view>
 		</view>
-		<!-- <view class="weui-form__tips-area">
+		<view class="weui-form__tips-area">
 			<view class="weui-form__tips">
-				表单页提示，居中对齐
+				本应用供校内用户签名使用,
 			</view>
-		</view> -->
+			<view class="weui-form__tips">
+				请使用统一身份认证的账号和密码进行绑定！
+			</view>
+		</view>
 		<view class="weui-form__opr-area btn-position">
 			<button bindtap="bindAccount" type="primary">绑定</button>
 		</view>
