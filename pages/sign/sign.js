@@ -468,6 +468,11 @@ Page({
                     icon:'none',
                     title: '提交成功，\r\n请在PC端点击“我已完成签名',
                   })
+                  setTimeout(()=>{
+                    wx.navigateTo({
+                      url: '/pages/index/index',
+                    })
+                  },4000)
                 } else {
                   wx.showToast({
                     icon: 'none',
