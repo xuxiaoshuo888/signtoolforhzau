@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/bind/bind",
     "pages/index/index",
     "pages/sign/sign",
-    "pages/bind/bind",
     "pages/logs/logs",
     "pages/sign_request/sign_request",
     "pages/bind/webLogin"
